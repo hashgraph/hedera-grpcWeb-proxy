@@ -112,58 +112,12 @@ let client = Client.forNetwork(
 );
 ```
 
-#### Java
-
-```java
-let client = Client.forNetwork(
-    {"http://localhost:8080": AccountId.fromString("0.0.3")},
-    {"http://localhost:8081": AccountId.fromString("0.0.4")},
-    {"http://localhost:8082": AccountId.fromString("0.0.5")},
-    ...
-);
-```
-
-#### GoLang
-
-```go
-let client = Client.forNetwork(
-    {"http://localhost:8080": AccountId.fromString("0.0.3")},
-    {"http://localhost:8081": AccountId.fromString("0.0.4")},
-    {"http://localhost:8082": AccountId.fromString("0.0.5")},
-    ...
-);
-```
-
 ### Individual server running per proxy
 
 * Replace `http://host` with the hostname/ip of each proxy server
 * The port number is the `configuration.startPort` from the `config.yaml` file
 
-#### Javascript
-
 ```javascript
-let client = Client.forNetwork(
-    {"http://host:8080": AccountId.fromString("0.0.3")},
-    {"http://host:8080": AccountId.fromString("0.0.4")},
-    {"http://host:8080": AccountId.fromString("0.0.5")},
-    ...
-);
-```
-
-#### Java
-
-```java
-let client = Client.forNetwork(
-    {"http://host:8080": AccountId.fromString("0.0.3")},
-    {"http://host:8080": AccountId.fromString("0.0.4")},
-    {"http://host:8080": AccountId.fromString("0.0.5")},
-    ...
-);
-```
-
-#### GoLang
-
-```go
 let client = Client.forNetwork(
     {"http://host:8080": AccountId.fromString("0.0.3")},
     {"http://host:8080": AccountId.fromString("0.0.4")},
