@@ -63,6 +63,7 @@ try {
     shellScriptTemplate = shellScriptTemplate.replace("$image", configuration.envoyImage);
     fs.writeFileSync(`${configsFolder}/start.sh`, shellScriptTemplate);
     console.log(`written ${configsFolder}/start.sh`);
+    fs.chmodSync(`${configsFolder}/start.sh`, 0o755);
 } catch (e) {
     console.log(e);
 }
