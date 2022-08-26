@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker run -dt -v "$(pwd)"/$1.testnet.hedera.com.yaml:/etc/envoy/envoy.yaml:ro --name envoy -p $startPort:1000$1 $image

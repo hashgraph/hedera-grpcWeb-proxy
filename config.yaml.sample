@@ -1,0 +1,13 @@
+configuration:
+  network: testnet
+  startPort: 8080
+  envoyImage: envoyproxy/envoy-dev:4c397d395ebbda2b307e20fb3ef30f99f473a073
+nodes:
+  - { address: 0.testnet.hedera.com, port: 50211, account: 0.0.3}
+  - { address: 1.testnet.hedera.com, port: 50211, account: 0.0.4}
+  - { address: 2.testnet.hedera.com, port: 50211, account: 0.0.5}
+  - { address: 3.testnet.hedera.com, port: 50211, account: 0.0.6}
+  - { address: 4.testnet.hedera.com, port: 50211, account: 0.0.7}
+  - { address: 5.testnet.hedera.com, port: 50211, account: 0.0.8}
+  - { address: 6.testnet.hedera.com, port: 50211, account: 0.0.9}
+

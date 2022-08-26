@@ -1,0 +1,7 @@
+configs
+node_modules
+.DS_Store
+.idea
+config.yaml
+.expo
+.expo-shared
