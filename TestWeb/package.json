@@ -15,7 +15,7 @@
     "expect-playwright": "^0.8.0",
     "expo": "~44.0.0",
     "expo-status-bar": "~1.2.0",
-    "playwright": "^1.21.1",
+    "playwright": "1.26.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
