@@ -28,7 +28,7 @@ sudo apt install yarn
 ```shell
 sudo docker build -t react_native_app .
 
-sudo docker run -it --rm --name react_native_app \
+sudo docker run -d -it --rm --name react_native_app \
 -p 19006:19006 \
 react_native_app
 ```
@@ -37,6 +37,7 @@ react_native_app
 
 ```shell
 yarn install
+sudo npx playwright install
 sudo npx playwright install-deps
 ```
 
