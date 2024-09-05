@@ -15,7 +15,7 @@
     "@hashgraph/sdk": "^2.13.1",
     "@improbable-eng/grpc-web": "^0.13.0",
     "@improbable-eng/grpc-web-node-http-transport": "^0.15.0",
-    "google-protobuf": "^3.14.0"
+    "google-protobuf": "^3.21.4"
   },
   "devDependencies": {
     "@types/google-protobuf": "^3.7.4",
