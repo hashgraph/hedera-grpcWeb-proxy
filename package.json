@@ -1,5 +1,5 @@
 {
-  "name": "hedera-grpc-web-proxy-generator",
+  "name": "@hashgraph/hedera-grpc-web-proxy-generator",
   "version": "0.15.0",
   "scripts": {},
   "license": "none",
