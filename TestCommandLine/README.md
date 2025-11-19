@@ -6,7 +6,7 @@ Issues a getBalance query to a specified endpoint
 
 ## Prerequisites
 
-* node.js version 18.17.1 (+)
+* node.js version v22.16.0 (+)
 
 ## Get started 
 
