@@ -66,7 +66,7 @@ cd configs
 docker-compose up -d
 ```
 
-To stop 
+To stop
 
 ```shell
 cd configs
@@ -87,7 +87,7 @@ On your server
 
 ```shell
 # in the command below, n is the number at the start of the associated 'yaml' file (e.g. 0, 1, 2...).
-./start.sh n 
+./start.sh n
 ```
 
 ## Code examples to direct SDK clients to the proxies
@@ -127,4 +127,3 @@ let client = Client.forNetwork(
 ```
 
 ## Testing
-
