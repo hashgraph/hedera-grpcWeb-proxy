@@ -1,0 +1,27 @@
+{
+  "name": "grpc-web-react-example",
+  "version": "0.15.0",
+  "private": true,
+  "scripts": {
+    "generate_cert": "cd ../misc ./gen_cert.sh",
+    "build:proto": "./protogen.sh",
+    "webpack-dev:tls": "cd ts && export USE_TLS=true && webpack serve --watch --hot --inline --port 8082 --host 0.0.0.0 --output-public-path=https://localhost:8082/build/ --https --cert=../../../misc/localhost.crt --key=../../../misc/localhost.key",
+    "webpack-dev": "cd ts && webpack serve --watch --hot --inline --port 8081 --host 0.0.0.0 --output-public-path=http://localhost:8081/build/",
+    "start:tls": "npm run build:proto && concurrently --kill-others \"go run go/exampleserver/exampleserver.go --enable_tls=true\" \"npm run webpack-dev:tls\"",
+    "start": "npm run build:proto && concurrently --kill-others \"go run go/exampleserver/exampleserver.go\" \"npm run webpack-dev\""
+  },
+  "license": "none",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.77.0",
+    "@improbable-eng/grpc-web-node-http-transport": "^0.15.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "ts-loader": "^9.5.4",
+    "ts-protoc-gen": "0.15.0",
+    "typescript": "5.9.3",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
