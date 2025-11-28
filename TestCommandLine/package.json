@@ -12,16 +12,16 @@
   },
   "license": "none",
   "dependencies": {
-    "@hashgraph/sdk": "^2.77.0",
-    "@improbable-eng/grpc-web-node-http-transport": "^0.15.0"
+    "@hashgraph/sdk": "2.78.0",
+    "@improbable-eng/grpc-web-node-http-transport": "0.15.0"
   },
   "devDependencies": {
-    "concurrently": "^9.2.1",
-    "ts-loader": "^9.5.4",
+    "concurrently": "9.2.1",
+    "ts-loader": "9.5.4",
     "ts-protoc-gen": "0.15.0",
     "typescript": "5.9.3",
-    "webpack": "^5.103.0",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
+    "webpack": "5.103.0",
+    "webpack-cli": "6.0.1",
+    "webpack-dev-server": "5.2.2"
   }
 }
