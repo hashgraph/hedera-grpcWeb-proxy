@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var crypto_service_pb_service_1 = require("../_proto/crypto_service_pb_service");
 var query_pb_1 = require("../_proto/query_pb");
 var basic_types_pb_1 = require("../_proto/basic_types_pb");

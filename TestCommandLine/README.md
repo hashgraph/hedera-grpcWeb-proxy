@@ -6,12 +6,7 @@ Issues a getBalance query to a specified endpoint
 
 ## Prerequisites
 
-* node.js version 16.13.0 (+)
-
-```shell
-sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo bash -
-sudo apt-get install -y nodejs
-```
+* node.js version v22.16.0 (+)
 
 ## Get started 
 

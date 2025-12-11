@@ -3,6 +3,6 @@ import { testSetup } from './testSetup';
 
 test('getBalance', async ({ page }) => {
     await testSetup(page);
-    await page.locator('data-testid=getBalance').click();
+    await page.getByRole('button', { name: 'Get Balance' }).click();
     await expect(page.locator('data-testid=status')).not.toBeEmpty();
 });

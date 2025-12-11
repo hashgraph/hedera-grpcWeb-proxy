@@ -3,6 +3,6 @@ import { testSetup } from './testSetup';
 
 test('createAccount', async ({ page }) => {
     await testSetup(page);
-    await page.locator('data-testid=createAccount').click();
+    await page.getByRole('button', { name: 'Create Account' }).click();
     await expect(page.locator('data-testid=status')).toHaveText("SUCCESS");
 });
