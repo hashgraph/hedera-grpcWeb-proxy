@@ -11,7 +11,7 @@
   "dependencies": {
     "@hashgraph/sdk": "2.78.0",
     "bn.js": "5.2.1",
-    "next": "16.0.3",
+    "next": "16.0.9",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
