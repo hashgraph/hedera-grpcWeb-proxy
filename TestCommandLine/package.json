@@ -16,7 +16,7 @@
     "@improbable-eng/grpc-web-node-http-transport": "0.15.0"
   },
   "devDependencies": {
-    "concurrently": "9.2.1",
+    "concurrently": "9.2.4",
     "ts-loader": "9.5.4",
     "ts-protoc-gen": "0.15.0",
     "typescript": "5.9.3",
